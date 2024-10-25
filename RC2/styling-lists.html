@@ -10,14 +10,18 @@
       html {
         font-family: Helvetica, Arial, sans-serif;
         font-size: 10px;
+        background-color: lightgray;
       }
 
       h2 {
         font-size: 2rem;
+        text-align: center;
       }
 
       ul,ol,dl,p {
         font-size: 1.5rem;
+        background-color: darkgray;
+        box-shadow: 1px 2px 3px black;
       }
 
       li, p {
@@ -43,6 +47,11 @@
 
       ol {
         list-style-type: upper-roman;
+        
+      }
+      /* for the numbers*/
+      li::marker{
+        font-weight: bold;
       }
 
       /* Description list styles */
